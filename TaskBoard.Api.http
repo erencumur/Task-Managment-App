@@ -1,0 +1,45 @@
+@TaskBoard.Api_HostAddress = https://localhost:7095
+
+GET {{TaskBoard.Api_HostAddress}}/api/Projects
+Accept: application/json
+
+###
+POST {{TaskBoard.Api_HostAddress}}/api/Projects
+Content-Type: application/json
+
+{
+  "name": "Deneme Projesi"
+}
+
+### Listeleri getir 
+GET https://localhost:7095/api/Lists?projectId=1
+Accept: application/json
+
+
+### Görevi oluþtur (örnek)
+POST https://localhost:7095/api/Tasks
+Content-Type: application/json
+
+{
+  "listEntityId": 1,
+  "title": "Ýlk Görev",
+  "description": "Kart detayý",
+  "dueDate": "2025-09-05"
+}
+
+### Listeleri getir (görevleriyle)
+GET https://localhost:7095/api/Lists?projectId=1
+Accept: application/json
+
+### Görevi taþý (id'yi kendi görev id’inle deðiþtir)
+PUT https://localhost:7095/api/Tasks/3
+Content-Type: application/json
+
+{
+  "listEntityId": 2,
+  "order": 0
+}
+
+### Tekrar listeleri getir (taþýndý mý?)
+GET https://localhost:7095/api/Lists?projectId=1
+Accept: application/json

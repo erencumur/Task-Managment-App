@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html.cs",
+      "PackagePath": "staticwebassets\\index.html.cs"
+    },
+    {
+      "Id": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TaskBoard.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TaskBoard.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TaskBoard.Api.props",
+      "PackagePath": "build\\TaskBoard.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TaskBoard.Api.props",
+      "PackagePath": "buildMultiTargeting\\TaskBoard.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TaskBoard.Api.props",
+      "PackagePath": "buildTransitive\\TaskBoard.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

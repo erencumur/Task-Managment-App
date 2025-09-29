@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Görev Takip Sistemi</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Görev Takip Sistemi</h1>
+
+        <!-- Proje seçimi -->
+        <div class="project-info">
+            <label for="projectSelect">Proje:</label>
+            <select id="projectSelect"></select>
+            <button id="btnLoad">Yükle</button>
+
+            <!-- Proje adını değiştir -->
+            <input id="renameProjectInput" type="text" placeholder="Yeni proje adı" />
+            <button id="btnRenameProject">Adı Değiştir</button>
+        </div>
+    </header>
+
+    <!-- Filtre + Arama -->
+    <section class="toolbar">
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all" id="filterAll">Tümü</button>
+            <button class="filter-btn" data-filter="late" id="filterLate">Gecikenler</button>
+            <button class="filter-btn" data-filter="today" id="filterToday">Bugün</button>
+            <button class="filter-btn" data-filter="week" id="filterWeek">Bu Hafta</button>
+        </div>
+        <div class="search">
+            <input id="searchInput" type="text" placeholder="Başlığa göre ara..." />
+            <button id="btnClearSearch" title="Temizle">×</button>
+        </div>
+    </section>
+
+    <!-- Pano -->
+    <main id="board"></main>
+
+    <!-- Alt sıra: Solda Yeni Görev, Sağda Proje Yönetimi -->
+    <section class="sections-row">
+        <!-- Yeni görev -->
+        <section class="add-task box">
+            <h3>Yeni Görev (Yapılacak sütununa)</h3>
+            <div class="form-row">
+                <input id="taskTitle" type="text" placeholder="Başlık" />
+                <input id="taskDue" type="date" placeholder="gg.aa.yyyy" />
+            </div>
+            <div class="form-row">
+                <textarea id="taskDesc" rows="3" placeholder="Açıklama"></textarea>
+                <button id="btnAdd">Ekle</button>
+                <span id="status"></span>
+            </div>
+        </section>
+
+        <!-- Proje yönetimi -->
+        <section class="projects box">
+            <h3>Proje Yönetimi</h3>
+            <div class="form-row">
+                <input id="newProjectName" type="text" placeholder="Yeni proje adı" />
+                <button id="btnAddProject">Proje Ekle</button>
+            </div>
+            <div class="form-row">
+                <button id="btnDeleteProject">Seçili Projeyi Sil</button>
+            </div>
+        </section>
+    </section>
+
+    <!-- Kart detayı modalı -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-panel">
+            <div class="modal-head">
+                <h3 id="modalTitle">Görev Detayı</h3>
+                <button id="modalClose" class="modal-close" title="Kapat">×</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Script sırası: önce Sortable, sonra app.js -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

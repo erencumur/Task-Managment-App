@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "bLZztMclAEjgL+2UdUHQcli52L7SY4H5UOx7g2XJqzY=",
+  "Source": "TaskBoard.Api",
+  "BasePath": "_content/TaskBoard.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TaskBoard.Api\\wwwroot",
+      "Source": "TaskBoard.Api",
+      "ContentRoot": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\",
+      "BasePath": "_content/TaskBoard.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\app.js",
+      "SourceId": "TaskBoard.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\",
+      "BasePath": "_content/TaskBoard.Api",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "plciwk00id",
+      "Integrity": "TQDsIK7vTxkJMOjT45PbPkd9Gv4oek6GQ4bGeKshQt8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html",
+      "SourceId": "TaskBoard.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\",
+      "BasePath": "_content/TaskBoard.Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yj5jvtqwjm",
+      "Integrity": "IqqIPStNn6L0JKeY7ZxeOqn2Uumpu8lmOGrqXvRDaTg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html.cs",
+      "SourceId": "TaskBoard.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\",
+      "BasePath": "_content/TaskBoard.Api",
+      "RelativePath": "index.html#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1hqhb74l8b",
+      "Integrity": "u3ij8DyMJdq5GuC1QHD3mEomsemqJxl1cE43WaIj6sU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html.cs"
+    },
+    {
+      "Identity": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\styles.css",
+      "SourceId": "TaskBoard.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\",
+      "BasePath": "_content/TaskBoard.Api",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rbs7vois06",
+      "Integrity": "J4qVymyF6HcFRbc2vftEsn6o1ya/ZJja0XBtzPRdG+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TQDsIK7vTxkJMOjT45PbPkd9Gv4oek6GQ4bGeKshQt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 10:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQDsIK7vTxkJMOjT45PbPkd9Gv4oek6GQ4bGeKshQt8="
+        }
+      ]
+    },
+    {
+      "Route": "app.plciwk00id.js",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TQDsIK7vTxkJMOjT45PbPkd9Gv4oek6GQ4bGeKshQt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 10:05:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "plciwk00id"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TQDsIK7vTxkJMOjT45PbPkd9Gv4oek6GQ4bGeKshQt8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IqqIPStNn6L0JKeY7ZxeOqn2Uumpu8lmOGrqXvRDaTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 10:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IqqIPStNn6L0JKeY7ZxeOqn2Uumpu8lmOGrqXvRDaTg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.1hqhb74l8b.cs",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3ij8DyMJdq5GuC1QHD3mEomsemqJxl1cE43WaIj6sU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 19:50:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1hqhb74l8b"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3ij8DyMJdq5GuC1QHD3mEomsemqJxl1cE43WaIj6sU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.cs",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u3ij8DyMJdq5GuC1QHD3mEomsemqJxl1cE43WaIj6sU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Sep 2025 19:50:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u3ij8DyMJdq5GuC1QHD3mEomsemqJxl1cE43WaIj6sU="
+        }
+      ]
+    },
+    {
+      "Route": "index.yj5jvtqwjm.html",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IqqIPStNn6L0JKeY7ZxeOqn2Uumpu8lmOGrqXvRDaTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 10:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yj5jvtqwjm"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IqqIPStNn6L0JKeY7ZxeOqn2Uumpu8lmOGrqXvRDaTg="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J4qVymyF6HcFRbc2vftEsn6o1ya/ZJja0XBtzPRdG+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 10:06:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4qVymyF6HcFRbc2vftEsn6o1ya/ZJja0XBtzPRdG+8="
+        }
+      ]
+    },
+    {
+      "Route": "styles.rbs7vois06.css",
+      "AssetFile": "C:\\Users\\Eren\\source\\repos\\TaskBoard.Api\\TaskBoard.Api\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J4qVymyF6HcFRbc2vftEsn6o1ya/ZJja0XBtzPRdG+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 10:06:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbs7vois06"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4qVymyF6HcFRbc2vftEsn6o1ya/ZJja0XBtzPRdG+8="
+        }
+      ]
+    }
+  ]
+}
